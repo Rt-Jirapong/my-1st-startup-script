@@ -1,0 +1,30 @@
+
+#help function
+git --help  
+
+#clone function
+git clone Https://Url
+
+#pull change from remote server from the clone url if it has anychange
+#example output  * branch            HEAD       -> FETCH_HEAD
+#                 Already up-to-date.
+git pull Https://Url
+
+#show current branch
+git branch
+
+#show all remote branch
+git branch -a
+
+#show all branch with detail 
+git branch -v -a
+#git branch without -a will show only current branch you are working on.
+
+#change to work on another branch
+git checkout your-branch-name       from git branch -a
+#example output   Switched to branch 'bash-test'
+#                 Your branch is up-to-date with 'origin/bash-test'.
+
+
+
+
