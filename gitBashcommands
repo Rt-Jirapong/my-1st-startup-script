@@ -5,10 +5,17 @@ git --help
 #clone function
 git clone Https://Url
 
-#pull change from remote server from the clone url if it has anychange
+#recieve any change of current branch if have
+git fetch
+
+#make update to current branch from git fetch
+git merge
+
+#git fecth + git merge = git pull
+#pull change from remote server to current branch if it has anychange
 #example output  * branch            HEAD       -> FETCH_HEAD
 #                 Already up-to-date.
-git pull Https://Url
+git pull 
 
 #show current branch
 git branch
